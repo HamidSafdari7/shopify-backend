@@ -9,7 +9,7 @@ const multer = require("multer");
 const path = require("path");
 const port = process.env.PORT || 3000
 
-const baseURL = "https://shopify-backend-jo3l.onrender.com"
+const baseURL = "https://shopify-backend-plum.vercel.app"
 
 // middleware setup
 app.use(express.json({ limit: "25mb" }));
@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "https://hs7-shopify.onrender.com",
+    origin: "https://shopify-five-blond.vercel.app",
     credentials: true
 }))
 //
