@@ -9,7 +9,7 @@ const multer = require("multer");
 const path = require("path");
 const port = process.env.PORT || 3000
 
-const baseURL = "https://shopify-backend-plum.vercel.app/"
+const baseURL = "https://shopify-backend-plum.vercel.app"
 
 // middleware setup
 app.use(express.json({ limit: "25mb" }));
